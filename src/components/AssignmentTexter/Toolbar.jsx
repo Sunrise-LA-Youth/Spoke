@@ -184,7 +184,7 @@ const ContactToolbar = function ContactToolbar(props) {
           </IconButton>
 
           <div className={css(styles.titleSmall)} style={{ color: "white" }}>
-            {formattedLocalTime} - {formattedLocation}
+            {formattedLocalTime} - {campaignContact.zip} - {campaignContact.cell}
           </div>
           <div className={css(styles.titleBig)} style={{ fontSize: "24px" }}>
             {campaignContact.firstName} {campaignContact.lastName}
